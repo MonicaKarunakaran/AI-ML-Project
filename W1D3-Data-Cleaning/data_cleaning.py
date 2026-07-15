@@ -1,6 +1,8 @@
 """
 W1D3 - Data Loading, Cleaning & Inspection
-Dataset: Indian Startup Funding Dataset
+
+Dataset:
+Indian Startup Funding Dataset
 
 Tasks:
 1. Load dataset
@@ -8,8 +10,9 @@ Tasks:
 3. Clean column names
 4. Handle missing values
 5. Remove duplicates
-6. Convert data types
-7. Save cleaned dataset
+6. Convert investment amount to numeric
+7. Perform NumPy operations
+8. Save cleaned dataset
 """
 
 import pandas as pd
@@ -20,7 +23,7 @@ import numpy as np
 # 1. Load Dataset
 # -----------------------------------
 
-df = pd.read_csv("startup_funding.csv")
+df = pd.read_csv("data/startup_funding.csv")
 
 
 print("\nOriginal Dataset:")
@@ -37,6 +40,10 @@ print(df.shape)
 
 print("\nColumns:")
 print(df.columns)
+
+
+print("\nDataset Information:")
+print(df.info())
 
 
 print("\nMissing Values:")
@@ -63,7 +70,7 @@ print(df.columns)
 # 4. Handle Missing Values
 # -----------------------------------
 
-# Fill categorical missing values
+# Fill missing categorical values
 
 categorical_columns = [
     "industry_vertical",
@@ -79,20 +86,21 @@ for column in categorical_columns:
         df[column] = df[column].fillna("Unknown")
 
 
-# Remarks has many missing values
+# Fill missing remarks
+
 df["remarks"] = df["remarks"].fillna("No Remarks")
 
 
-# Amount column missing values
-df["amount_in_usd"] = (
-    df["amount_in_usd"]
-    .fillna("0")
-)
+# Fill missing investment values
+
+df["amount_in_usd"] = df["amount_in_usd"].fillna("0")
 
 
 # -----------------------------------
-# 5. Clean Amount Column
+# 5. Convert Investment Amount
 # -----------------------------------
+
+# Remove commas from amount
 
 df["amount_in_usd"] = (
     df["amount_in_usd"]
@@ -100,28 +108,33 @@ df["amount_in_usd"] = (
 )
 
 
+# Convert string to numeric
+
 df["amount_in_usd"] = pd.to_numeric(
     df["amount_in_usd"],
     errors="coerce"
 )
 
 
-# Replace remaining NaN values
-df["amount_in_usd"] = df["amount_in_usd"].fillna(0)
+# Replace invalid values
+
+df["amount_in_usd"] = (
+    df["amount_in_usd"]
+    .fillna(0)
+)
 
 
 # -----------------------------------
-# 6. Remove Duplicate Rows
+# 6. Remove Duplicate Records
 # -----------------------------------
 
-duplicates = df.duplicated().sum()
+duplicate_count = df.duplicated().sum()
 
 print("\nDuplicate Records:")
-print(duplicates)
+print(duplicate_count)
 
 
 df = df.drop_duplicates()
-
 
 
 # -----------------------------------
@@ -146,9 +159,12 @@ print(np.mean(investment_array))
 # -----------------------------------
 
 df.to_csv(
-    "cleaned_startup_funding.csv",
+    "data/cleaned_startup_funding.csv",
     index=False
 )
 
 
 print("\nCleaning Completed Successfully!")
+
+print("\nCleaned Dataset Saved:")
+print("data/cleaned_startup_funding.csv")
