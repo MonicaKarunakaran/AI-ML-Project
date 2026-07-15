@@ -168,3 +168,5 @@ print("\nCleaning Completed Successfully!")
 
 print("\nCleaned Dataset Saved:")
 print("data/cleaned_startup_funding.csv")
+
+# Final pipeline submission verification
