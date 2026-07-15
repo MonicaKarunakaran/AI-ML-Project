@@ -1,3 +1,8 @@
+# W1D1: Python for ML — NumPy Fundamentals
+# Completed hands-on tasks for array operations and statistics.
+
+
+
 import numpy as np
 print("===== 1D Array =====")
 a = np.array([1, 2, 3, 4, 5])
