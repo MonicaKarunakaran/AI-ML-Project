@@ -1,0 +1,8 @@
+GRID SEARCH
+{'C': 0.1, 'gamma': 'scale', 'kernel': 'linear'}
+0.9333333333333333
+
+RANDOM SEARCH
+{'weights': 'distance', 'n_neighbors': 9, 'metric': 'manhattan'}
+0.9666666666666667
+
