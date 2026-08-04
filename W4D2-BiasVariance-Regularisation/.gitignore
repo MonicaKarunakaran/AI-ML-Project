@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+
+.venv/
+venv/
+
+mlflow/
+mlruns/
+mlflow.db
+
+models/
+plots/
+
+.ipynb_checkpoints/
+
+data/*.csv
