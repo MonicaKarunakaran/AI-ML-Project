@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML artifacts
+artifacts/*.pkl
+
+# MLflow
+mlruns/
+
+# Data
+data/processed/
+
+# IDE
+.vscode/
