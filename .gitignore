@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 
 # Virtual Environment
+<<<<<<< HEAD
 .venv/
 venv/
 
@@ -12,6 +13,18 @@ venv/
 
 # MLflow
 mlruns/
+=======
+venv/
+.env
+
+# ML files
+*.pkl
+*.pickle
+
+# MLflow
+mlruns/
+mlflow.db
+>>>>>>> c4bbb5d (feat: implement fastapi ml model serving pipeline)
 
 # IDE
 .vscode/
@@ -19,7 +32,14 @@ mlruns/
 
 # OS
 .DS_Store
+<<<<<<< HEAD
 
 # Generated files
 plots/*.png
 evidence/*.png
+=======
+Thumbs.db
+
+# Logs
+*.log
+>>>>>>> c4bbb5d (feat: implement fastapi ml model serving pipeline)
