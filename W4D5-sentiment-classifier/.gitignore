@@ -1,0 +1,45 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Raw data - do not commit
+data/*.csv
+data/*.json
+data/*.xlsx
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Saved models
+*.pkl
+*.joblib
+
+# Generated outputs
+outputs/
+artifacts/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
