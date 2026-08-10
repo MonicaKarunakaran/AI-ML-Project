@@ -1,0 +1,6 @@
+aif360==0.6.1
+shap
+pandas
+scikit-learn
+matplotlib
+seaborn

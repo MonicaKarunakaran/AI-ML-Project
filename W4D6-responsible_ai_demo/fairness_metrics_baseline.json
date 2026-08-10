@@ -1,0 +1,14 @@
+{
+    "performance": {
+        "accuracy": 0.845682081882977,
+        "precision": 0.7304277643260694,
+        "recall": 0.6025299600532623,
+        "f1": 0.6603429405326523,
+        "roc_auc": 0.9012648037002675
+    },
+    "fairness": {
+        "disparate_impact": 0.3533689312554751,
+        "equal_opportunity_difference": -0.06353423231288513,
+        "statistical_parity_difference": -0.16829905799057993
+    }
+}
