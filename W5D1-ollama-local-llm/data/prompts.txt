@@ -1,0 +1,5 @@
+What is machine learning? Explain it for a beginner.
+What is the difference between supervised and unsupervised learning?
+What is overfitting and how can it be reduced?
+Explain precision and recall with a simple example.
+What is model serialization and why is it useful?

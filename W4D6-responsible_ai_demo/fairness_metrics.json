@@ -1,0 +1,30 @@
+{
+    "baseline": {
+        "performance": {
+            "accuracy": 0.845682081882977,
+            "precision": 0.7304277643260694,
+            "recall": 0.6025299600532623,
+            "f1": 0.6603429405326523,
+            "roc_auc": 0.9012648037002675
+        },
+        "fairness": {
+            "disparate_impact": 0.3533689312554751,
+            "equal_opportunity_difference": -0.06353423231288513,
+            "statistical_parity_difference": -0.16829905799057993
+        }
+    },
+    "after_reweighing": {
+        "performance": {
+            "accuracy": 0.840046411403945,
+            "precision": 0.736981465136805,
+            "recall": 0.5559254327563249,
+            "f1": 0.6337760910815939,
+            "roc_auc": 0.8962997471773824
+        },
+        "fairness": {
+            "disparate_impact": 0.6368377879794964,
+            "equal_opportunity_difference": 0.14305194041881475,
+            "statistical_parity_difference": -0.07736739867398673
+        }
+    }
+}
