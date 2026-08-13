@@ -1,0 +1,20 @@
+Python is a popular programming language used for data science and machine learning.
+Machine learning allows computers to learn patterns from data.
+Supervised learning uses labelled data to train predictive models.
+Unsupervised learning discovers hidden patterns in data without labelled outputs.
+Classification models predict discrete categories such as positive or negative.
+Regression models predict continuous numerical values.
+Feature engineering improves machine learning models by creating useful input features.
+Model evaluation helps determine how well a machine learning model performs.
+Precision measures how many predicted positive samples are actually positive.
+Recall measures how many actual positive samples are correctly identified.
+F1 score combines precision and recall into a single metric.
+Cross validation helps estimate model performance on unseen data.
+Regularisation can reduce overfitting by penalising model complexity.
+Natural language processing allows computers to work with human language.
+Embeddings represent text as numerical vectors that capture semantic meaning.
+Vector databases store and search high-dimensional numerical representations.
+ChromaDB is a vector database that can be used for similarity search.
+Retrieval augmented generation combines document retrieval with language generation.
+Large language models can generate answers based on retrieved contextual information.
+Ollama allows large language models and embedding models to run locally.
