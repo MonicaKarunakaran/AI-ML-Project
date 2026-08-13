@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+chromadb_data/
+*.db
+
+.ipynb_checkpoints/
+
+.env
+.env.*
