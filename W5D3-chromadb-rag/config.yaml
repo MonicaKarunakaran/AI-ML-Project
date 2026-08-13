@@ -1,0 +1,18 @@
+ollama:
+  embedding_model: "nomic-embed-text"
+  llm_model: "llama3.2:3b"
+
+chroma:
+  persist_directory: "./chroma_data"
+  collection_name: "w5d3_documents"
+  distance_function: "cosine"
+
+chunking:
+  chunk_size: 800
+  chunk_overlap: 100
+
+retrieval:
+  top_k: 3
+
+mlflow:
+  experiment_name: "W5D3-ChromaDB-RAG"
