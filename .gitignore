@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+<<<<<<< HEAD
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+=======
+venv/
+.env
+
+# ML files
+*.pkl
+*.pickle
+
+# MLflow
+mlruns/
+mlflow.db
+>>>>>>> c4bbb5d (feat: implement fastapi ml model serving pipeline)
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+<<<<<<< HEAD
+
+# Generated files
+plots/*.png
+evidence/*.png
+=======
+Thumbs.db
+
+# Logs
+*.log
+>>>>>>> c4bbb5d (feat: implement fastapi ml model serving pipeline)
