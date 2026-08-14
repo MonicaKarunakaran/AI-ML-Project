@@ -1,0 +1,8 @@
+protected_attribute,bias_type,group,count,percentage,finding,severity
+sex,Representation bias,Male,20380,67.57,Group represents 67.57% of the dataset,Low
+sex,Representation bias,Female,9782,32.43,Group represents 32.43% of the dataset,Low
+sex,Measurement bias,All,0,0.0,0 missing values detected,Low
+sex,Sampling bias,All,30162,100.0,Requires comparison with the target real-world population distribution,Review
+sex,Historical bias,All,30162,100.0,Requires checking whether historical outcomes contain discriminatory patterns,Review
+sex,Label bias,All,30162,100.0,Requires checking whether target labels were consistently assigned across groups,Review
+sex,Aggregation bias,All,30162,100.0,Check whether one model is being applied to heterogeneous groups with different patterns,Review
