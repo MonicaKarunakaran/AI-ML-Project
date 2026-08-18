@@ -1,0 +1,23 @@
+--- Input 1 ---
+Question: What is machine learning?
+Answer: Machine learning (ML) is a subset of artificial intelligence (AI) that enables systems to automatically improve their performance on a task without being explicitly programmed. It involves training algorithms on data to enable them to learn patterns, make predictions, and make decisions.
+
+--- Input 2 ---
+Question: What is the difference between AI and machine learning?
+Answer: AI (Artificial Intelligence) and Machine Learning (ML) are related but distinct concepts:
+
+AI refers to the broader field of research and development aimed at creating intelligent machines that can perform tasks that typically require human intelligence, such as reasoning, problem-solving, and learning.
+
+Machine Learning, on the other hand, is a subset of AI that focuses specifically on developing algorithms and statistical models that enable machines to learn from data, improve their performance, and make predictions or decisions without being explicitly programmed.
+
+--- Input 3 ---
+Question: What is a neural network?
+Answer: A neural network is a computer system inspired by the structure and function of the human brain. It's composed of interconnected nodes (neurons) that process and transmit information, allowing machines to learn, recognize patterns, and make predictions.
+
+--- Input 4 ---
+Question: What is overfitting?
+Answer: Overfitting is when a model is too complex and performs well on the training data, but poorly on new, unseen data. It occurs when the model is too closely fit to the noise in the training data, rather than learning the underlying patterns.
+
+--- Input 5 ---
+Question: What is LangChain?
+Answer: LangChain is an open-source Python library that enables the creation of custom data pipelines and workflows for machine learning (ML) and artificial intelligence (AI) applications. It provides a flexible and modular framework for integrating various tools and services, such as data storage, processing, and model training, to build end-to-end data pipelines.

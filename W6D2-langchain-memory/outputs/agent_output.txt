@@ -1,0 +1,15 @@
+============================================================
+TASK 1
+============================================================
+Input: Use the calculator tool to calculate 25 * 4.
+Final Answer: 100
+============================================================
+TASK 2
+============================================================
+Input: Use the web_search tool to search for information about LangChain.
+Final Answer: LangChain is an open-source framework for building applications and workflows powered by language models.
+============================================================
+TASK 3
+============================================================
+Input: Use the calculator tool to calculate 100 divided by 4.
+Final Answer: 25.0
