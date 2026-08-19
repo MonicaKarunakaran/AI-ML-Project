@@ -1,0 +1,55 @@
+============================================================
+W6D3 - CONVERSATION MEMORY
+============================================================
+
+Turn 1
+User: My name is Monica.
+AI: Hi Monica! It's nice to meet you. Is there something specific you'd like to chat about or ask for help with? I'm here to assist you. 
+
+(By the way, we didn't have a previous conversation, so we're starting fresh!)
+
+Turn 2
+User: I am learning LangChain.
+AI: LangChain is a powerful framework for developing applications powered by language models. It provides a flexible and modular way to build applications using language models, agents, tools, and retrieval.
+
+What specific aspects of LangChain are you currently learning, Monica? Are you exploring its different components, such as chains, agents, or tools, or are you diving deeper into its use cases and applications?
+
+Turn 3
+User: What am I currently learning?
+AI: You mentioned earlier that you're learning LangChain.
+
+Turn 4
+User: What is my name?
+AI: Your name is Monica, and you're currently learning LangChain.
+
+Turn 5
+User: Summarize what you know about me from this conversation.
+AI: From this conversation, I know that:
+
+* Your name is Monica.
+* You are learning LangChain.
+* You asked about yourself a few times, which I answered accordingly.
+* You didn't explicitly mention any specific topic or subject that you're learning within LangChain, so I provided general responses.
+
+============================================================
+CONVERSATION HISTORY
+============================================================
+User: My name is Monica.
+AI: Hi Monica! It's nice to meet you. Is there something specific you'd like to chat about or ask for help with? I'm here to assist you. 
+
+(By the way, we didn't have a previous conversation, so we're starting fresh!)
+User: I am learning LangChain.
+AI: LangChain is a powerful framework for developing applications powered by language models. It provides a flexible and modular way to build applications using language models, agents, tools, and retrieval.
+
+What specific aspects of LangChain are you currently learning, Monica? Are you exploring its different components, such as chains, agents, or tools, or are you diving deeper into its use cases and applications?
+User: What am I currently learning?
+AI: You mentioned earlier that you're learning LangChain.
+User: What is my name?
+AI: Your name is Monica, and you're currently learning LangChain.
+User: Summarize what you know about me from this conversation.
+AI: From this conversation, I know that:
+
+* Your name is Monica.
+* You are learning LangChain.
+* You asked about yourself a few times, which I answered accordingly.
+* You didn't explicitly mention any specific topic or subject that you're learning within LangChain, so I provided general responses.
