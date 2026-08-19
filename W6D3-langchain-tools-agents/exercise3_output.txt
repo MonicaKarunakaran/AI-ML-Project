@@ -1,0 +1,16 @@
+============================================================
+W6D3 - EXERCISE 3: MLFLOW + RAGAS INTEGRATION
+============================================================
+
+Loaded 5 ground-truth examples.
+
+Running chain evaluation...
+Running agent evaluation...
+
+Chain runs: 5
+Agent runs: 3
+
+Ragas status:
+Ragas import unavailable: No module named 'langchain_community.chat_models.vertexai'
+
+MLflow logging completed successfully.
