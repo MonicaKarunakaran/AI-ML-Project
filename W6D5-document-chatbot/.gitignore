@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw data
+src/data/raw/*
+!src/data/raw/.gitkeep
+
+# Processed data
+src/data/processed/*
+!src/data/processed/.gitkeep
+
+# MLflow
+mlruns/
+experiments/mlflow_runs/
+*.db
+
+# Logs
+experiments/logs/*
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Model files
+*.pkl
+*.pickle
+*.index
+*.faiss
