@@ -1,0 +1,12 @@
+MLOps combines machine learning development with software engineering and
+operations practices.
+
+Important MLOps activities include experiment tracking, model versioning,
+data versioning, automated testing, continuous integration, continuous
+deployment, monitoring, and model lifecycle management.
+
+MLflow is a popular platform for tracking machine learning experiments,
+parameters, metrics, artifacts, and models.
+
+Docker can be used to package machine learning applications into portable
+containers.
