@@ -1,0 +1,10 @@
+langchain
+langchain-core
+langchain-ollama
+langchain-classic
+langgraph
+python-dotenv
+numexpr
+pytest
+mlflow
+ragas

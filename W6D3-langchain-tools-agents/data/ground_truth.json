@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is LangChain?",
+        "answer": "LangChain is a framework for building applications powered by language models."
+    },
+    {
+        "question": "What is RAG?",
+        "answer": "RAG stands for Retrieval-Augmented Generation and combines retrieval with language model generation."
+    },
+    {
+        "question": "What is an LLM?",
+        "answer": "An LLM is a Large Language Model trained to understand and generate human-like text."
+    },
+    {
+        "question": "What is prompt engineering?",
+        "answer": "Prompt engineering is the process of designing prompts to guide language models toward useful outputs."
+    },
+    {
+        "question": "What is an AI agent?",
+        "answer": "An AI agent is a system that uses reasoning and tools to perform tasks toward a goal."
+    }
+]

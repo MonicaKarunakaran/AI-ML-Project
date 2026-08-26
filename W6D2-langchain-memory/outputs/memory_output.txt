@@ -1,0 +1,32 @@
+--- Turn 1 ---
+User: My name is Monica.
+AI: Nice to meet you, Monica.
+
+--- Turn 2 ---
+User: I am learning AI and ML.
+AI: That's great. AI and ML are valuable skills.
+
+--- Turn 3 ---
+User: What is LangChain?
+AI: LangChain is a framework for building applications powered by language models.
+
+--- Turn 4 ---
+User: What is memory used for?
+AI: Memory helps maintain conversation context across multiple turns.
+
+--- Turn 5 ---
+User: What am I learning?
+AI: You are learning AI, ML, and LangChain.
+
+FINAL CONVERSATION HISTORY
+
+human: My name is Monica.
+ai: Nice to meet you, Monica.
+human: I am learning AI and ML.
+ai: That's great. AI and ML are valuable skills.
+human: What is LangChain?
+ai: LangChain is a framework for building applications powered by language models.
+human: What is memory used for?
+ai: Memory helps maintain conversation context across multiple turns.
+human: What am I learning?
+ai: You are learning AI, ML, and LangChain.

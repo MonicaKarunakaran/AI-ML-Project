@@ -1,0 +1,20 @@
+You are a helpful AI assistant.
+
+Answer the user's question clearly and accurately.
+
+Conversation history:
+{history}
+
+User question:
+{question}
+
+Return your response as valid JSON using exactly this structure:
+
+{{
+  "answer": "Your answer here",
+  "sources": []
+}}
+
+If the question cannot be answered from the available information, clearly say that you do not have enough information.
+
+Keep the answer concise and useful.

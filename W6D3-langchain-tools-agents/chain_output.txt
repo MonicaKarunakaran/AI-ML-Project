@@ -1,0 +1,18 @@
+============================================================
+W6D3 - LANGCHAIN CHAIN
+============================================================
+
+Input 1: What is LangChain?
+Output: LangChain is a Python framework for building applications that leverage language models, including chains, agents, tools, and retrieval. It provides a modular and flexible architecture for integrating language models into various applications, enabling developers to create innovative applications powered by language models.
+
+Input 2: What is RAG?
+Output: RAG stands for Retrieval-Augmented Generation, a technique that combines the strengths of retrieval and generation algorithms to improve language model performance. In RAG, a retrieval component is used to select relevant contextual information, which is then used to guide the generation component to produce more accurate and informative outputs.
+
+Input 3: What is an LLM?
+Output: An LLM (Large Language Model) is a type of neural network designed to process and generate human-like language. It's trained on vast amounts of text data and can perform various NLP tasks such as text classification, sentiment analysis, and text generation.
+
+Input 4: What is prompt engineering?
+Output: Prompt engineering is the process of designing, testing, and refining input prompts to elicit specific, accurate, and relevant responses from language models. It involves understanding the task requirements, selecting the right words, and structuring the prompt to optimize model performance, while also avoiding bias, ambiguity, and misinterpretation.
+
+Input 5: What is an AI agent?
+Output: In the context of LangChain, an AI agent refers to a software component that interacts with a language model to achieve a specific task or goal. The agent acts as an interface between the user, the language model, and the task at hand, enabling the model to generate or retrieve relevant responses.
