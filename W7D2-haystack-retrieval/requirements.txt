@@ -1,0 +1,5 @@
+haystack-ai
+sentence-transformers
+pypdf
+pytest
+pandas
