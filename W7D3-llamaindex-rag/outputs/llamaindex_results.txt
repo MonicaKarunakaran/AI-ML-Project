@@ -1,0 +1,60 @@
+======================================================================
+Query 1
+Question: What is machine learning?
+Answer: Machine learning is a branch of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task.
+Latency: 80413.04 ms
+
+======================================================================
+Query 2
+Question: What is supervised learning?
+Answer: Supervised learning is a type of machine learning that enables computers to learn patterns from labeled data and make predictions or decisions without being explicitly programmed for every task.
+Latency: 6948.92 ms
+
+======================================================================
+Query 3
+Question: What are common NLP tasks?
+Answer: Text classification, sentiment analysis, named entity recognition, machine translation, summarization, and question answering are common Natural Language Processing tasks.
+Latency: 15258.71 ms
+
+======================================================================
+Query 4
+Question: What is NLP?
+Answer: A field of artificial intelligence that focuses on enabling computers to understand and process human language, NLP encompasses various tasks, including text classification, sentiment analysis, and machine translation, among others.
+Latency: 14167.46 ms
+
+======================================================================
+Query 5
+Question: What does RAG stand for?
+Answer: RAG stands for Retrieval-Augmented Generation.
+Latency: 17109.99 ms
+
+======================================================================
+Query 6
+Question: How does a RAG pipeline work?
+Answer: A RAG pipeline works by first loading documents and splitting them into smaller chunks. These chunks are then converted into vector embeddings and stored in a vector database. When a user asks a question, the system converts the question into an embedding and retrieves the most relevant document chunks. The retrieved context is then provided to a language model, which generates an answer based on the available information.
+Latency: 19964.03 ms
+
+======================================================================
+Query 7
+Question: What is the purpose of vector embeddings in RAG?
+Answer: Vector embeddings are used to convert chunks of text into a numerical representation that can be stored and retrieved efficiently, allowing the system to quickly identify the most relevant document chunks when a question is asked.
+Latency: 10330.02 ms
+
+======================================================================
+Query 8
+Question: What is MLOps?
+Answer: MLOps is a combination of machine learning development with software engineering and operations practices.
+Latency: 15770.15 ms
+
+======================================================================
+Query 9
+Question: What is MLflow used for?
+Answer: MLflow is primarily used to track machine learning experiments, parameters, metrics, artifacts, and models.
+Latency: 9593.78 ms
+
+======================================================================
+Query 10
+Question: What is Docker used for in MLOps?
+Answer: Docker is used to package machine learning applications into portable containers, making it easier to deploy and manage them.
+Latency: 8613.65 ms
+
