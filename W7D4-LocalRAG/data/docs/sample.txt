@@ -1,0 +1,11 @@
+Retrieval Augmented Generation (RAG) combines
+information retrieval with large language models.
+
+RAG retrieves relevant documents from a knowledge base
+and uses them as context before generating answers.
+
+LlamaIndex helps create indexes over documents,
+while Ollama enables local execution of LLMs.
+
+Quantisation reduces memory requirements by storing
+weights with lower precision.
