@@ -1,0 +1,9 @@
+llama-index==0.14.24
+llama-index-core==0.14.24
+llama-index-embeddings-ollama==0.9.0
+llama-index-llms-ollama==0.10.1
+llama-index-vector-stores-chroma==0.5.5
+llama-index-readers-file
+chromadb==1.5.9
+ollama==0.6.2
+pytest
