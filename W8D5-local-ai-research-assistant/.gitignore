@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Environment variables
+.env
+
+# ChromaDB
+outputs/chroma_db/
+
+# MLflow local files
+mlruns/
+.mlflow/
+
+# Generated output
+outputs/*.txt
+outputs/*.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+langgraph
+langchain
+langchain-community
+langchain-ollama
+chromadb
+langchain-chroma
+mlflow
+ragas
+pytest
+pypdf
+python-dotenv
